@@ -82,4 +82,47 @@ footer a {
   font-size: 1.2rem;
 }
 
+/**************
+header
+**************/
+.mainHeader {
+  background: #0b193c;
+  color: white;
+  padding: 0 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+.mainHeader div {
+  flex: 0 0 45%;
+}
+.mainHeader div img {
+  width: 100%;
+  padding: 40px 0;
+}
+.mainHeader div h1 {
+  font-size: 4rem;
+}
+.mainHeader div h1 span {
+  color: #f91257;
+}
+.mainHeader div button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  background: #f91257;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+}
+.mainHeader div button:hover {
+  background: #383c6e;
+  transition: 0.3s ease;
+}
+
 /*# sourceMappingURL=style.css.map */
