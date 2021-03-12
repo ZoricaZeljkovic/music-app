@@ -6,17 +6,18 @@
         <title>MusicApp</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="scss/style.scss">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 <body>
-<!-- nav -->
-<nav>
-    <a href="index.php"><span>Music</span>App</a></nav>
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="how-it-works.php">How it works</a></li>
-        <li><a href="subscription.php">Subscription</a></li>
-    </ul>
+   <!-- nav -->
+   <nav>
+       <a href="index.php"><span>Music</span>App</a>
+       <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="how-it-works.php">How it works</a></li>
+          <li><a href="subscription.php">Subscription</a></li>
+       </ul>
+   </nav>
 
     
 </body>

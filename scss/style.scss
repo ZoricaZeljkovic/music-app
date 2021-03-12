@@ -13,6 +13,17 @@ $padding: 80px 0;
 $fontFamily: 'Montserrat', sans-serif;
 $transition: .3s ease;
 
+/******************************
+mixins
+******************************/
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $justify;
+    align-content: $align;
+    flex-direction: $direction;
+}
+
 
 /******************************
 basic styles
@@ -27,5 +38,40 @@ body {
     color: $fontColor;
     font-family: $fontFamily;
     line-height: 1.5;
-    background: red;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: $bela;
+    &:hover {
+        color: $pink;
+        transition: $transition;
+    }
+}
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+    span {
+        color: $pink;
+    }
+}
+
+/**************
+nav
+**************/
+nav {
+    background: $navPlava;
+    @include flex(space-between, center, row);
+    padding: 30px 60px;
+    & > a {
+        @extend .logo;
+    }
+    ul {
+        @include flex(space-between, center, row);
+        li {
+            margin-left: 50px;
+        }
+    }
 }
