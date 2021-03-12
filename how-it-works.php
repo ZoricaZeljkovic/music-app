@@ -3,7 +3,7 @@
 <!-- hivHeader -->
 <section class="hivHeader">
     <h2 class="container">How it works</h2>
-    <article class="containier">
+    <article>
         <div>
             <i class="fas fa-user-circle"></i>
             <h3>Create an account</h3>
