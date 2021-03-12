@@ -41,6 +41,16 @@ a:hover {
   color: #f91257;
 }
 
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
 /**************
 nav
 **************/
@@ -121,6 +131,41 @@ header
   letter-spacing: 2px;
 }
 .mainHeader div button:hover {
+  background: #383c6e;
+  transition: 0.3s ease;
+}
+.mainHeader div button:hover {
+  background: #383c6e;
+  transition: 0.3s ease;
+}
+
+/**************
+unlimited
+**************/
+.unlimited {
+  padding: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+.unlimited article {
+  flex: 0 0 48%;
+}
+.unlimited article button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  background: #f91257;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+}
+.unlimited article button:hover {
   background: #383c6e;
   transition: 0.3s ease;
 }

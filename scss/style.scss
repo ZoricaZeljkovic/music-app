@@ -34,6 +34,10 @@ mixins
     margin-top: 20px;
     border-radius: 40px;
     letter-spacing: 2px;
+    &:hover {
+        background: $violet;
+        transition: $transition;
+    }
 }
 
 
@@ -68,6 +72,14 @@ a {
     span {
         color: $pink;
     }
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.1;
 }
 
 /**************
@@ -132,6 +144,19 @@ header
                 background: $violet;
                 transition: $transition;
             }
+        }
+    }
+}
+/**************
+unlimited
+**************/
+.unlimited {
+    padding: $padding;
+    @include flex(space-between, center, row);
+    article {
+        flex: 0 0 48%;
+        button {
+            @include btn;
         }
     }
 }
