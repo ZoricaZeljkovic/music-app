@@ -9,7 +9,7 @@
         <button>Start free trial</button>
     </div>
     <div>
-        <img src="img/header.png" alt="">
+        <img src="img/header.png" alt="Live streams">
     </div>
 </header>
 <!-- unlimited -->
