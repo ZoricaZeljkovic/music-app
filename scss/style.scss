@@ -75,3 +75,21 @@ nav {
         }
     }
 }
+
+/**************
+footer
+**************/
+footer {
+    background: $navPlava;
+    text-align: center;
+    padding: $padding;
+    p {
+        color: $bela;
+        padding: 15px 0;
+        font-size: .8rem;
+    }
+    a {
+        margin: 0 20px;
+        font-size: 1.2rem;
+    }
+}
