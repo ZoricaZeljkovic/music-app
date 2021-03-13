@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /******************************
 variables
 ******************************/
@@ -232,6 +233,66 @@ artists
 .artists article:last-child div img {
   width: 100%;
   border-radius: 40px;
+}
+
+/**************
+subscription
+**************/
+.subscription {
+  background: #0b193c;
+  padding: 80px 0;
+  color: white;
+}
+.subscription .container, .subscription .hivHeader article, .hivHeader .subscription article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  flex-direction: row;
+}
+.subscription .container div:first-child, .subscription .hivHeader article div:first-child, .hivHeader .subscription article div:first-child {
+  flex: 0 0 48%;
+}
+.subscription .container div:first-child h4, .subscription .hivHeader article div:first-child h4, .hivHeader .subscription article div:first-child h4 {
+  color: #f91257;
+  font-size: 1.8rem;
+  padding: 15px 0;
+}
+.subscription .container div:first-child button, .subscription .hivHeader article div:first-child button, .hivHeader .subscription article div:first-child button {
+  padding: 20px 40px;
+  font-size: 1rem;
+  background: #f91257;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 20px;
+  border-radius: 40px;
+  letter-spacing: 2px;
+}
+.subscription .container div:first-child button:hover, .subscription .hivHeader article div:first-child button:hover, .hivHeader .subscription article div:first-child button:hover {
+  background: #383c6e;
+  transition: 0.3s ease;
+}
+.subscription .container div:last-child, .subscription .hivHeader article div:last-child, .hivHeader .subscription article div:last-child {
+  flex: 0 0 48%;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+.subscription .container div:last-child ul, .subscription .hivHeader article div:last-child ul, .hivHeader .subscription article div:last-child ul {
+  line-height: 3;
+}
+.subscription .container div:last-child ul li::before, .subscription .hivHeader article div:last-child ul li::before, .hivHeader .subscription article div:last-child ul li::before {
+  font-family: "Font Awesome 5 Free";
+  content: "";
+  margin-right: 10px;
+  color: #f91257;
 }
 
 /*# sourceMappingURL=style.css.map */
